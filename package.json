@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A simple MERN stack boilerplate using docker-compose",
   "main": "src/index.js",
+  "scripts": {
+    "start-dev": "nodemon -i client/build -x 'cd client && npm run build:dev && cd .. && env-cmd -f config/dev.env node src/index.js'"
+  },
   "author": "Dhananjay Tanpure(https://github.com/DTan13)",
   "license": "ISC",
   "dependencies": {
