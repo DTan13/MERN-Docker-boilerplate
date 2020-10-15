@@ -10,7 +10,7 @@
 
   [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 
-- ## Install Docker for your OS
+- ## Install docker-compose for your OS
 
   [https://docs.docker.com/compose/install/](https://docs.docker.com/compose/install/)
 
@@ -23,13 +23,13 @@
 
 ```
 
-- ## Start development environment
+- ## Starting development environment
 
 ```bash
     docker-compose up
 ```
 
-- ## Stop development environment
+- ## Stoping development environment
 
 ```bash
     docker-compose down
