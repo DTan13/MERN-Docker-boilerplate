@@ -26,13 +26,13 @@
 - ## Start development environment
 
 ```bash
-    docker-compose up
+    docker-compose up --remove-orphans --build
 ```
 
 - ## Stop development environment
 
 ```bash
-    docker-compose down
+    docker-compose down -v
 ```
 
 <br><br>
