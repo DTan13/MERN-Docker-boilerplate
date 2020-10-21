@@ -40,6 +40,10 @@ created by `docker-compose up`.
 
 <br><br>
 
+# Demo 
+
+[![asciicast](https://asciinema.org/a/KymNsnFukWPgaEsgDSLH05kcO.svg)](https://asciinema.org/a/KymNsnFukWPgaEsgDSLH05kcO)
+
 # Contributing
 
 ## Reporting Errors
