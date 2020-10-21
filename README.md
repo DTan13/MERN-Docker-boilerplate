@@ -28,12 +28,15 @@
 ```bash
     docker-compose up --remove-orphans --build
 ```
+>   to stop `docker-compose up` use <kbd>Ctrl</kbd> + <kbd>c</kbd>
 
 - ## Stoping development environment
 
 ```bash
     docker-compose down -v
 ```
+> `docker-compose down` stops containers and removes containers, networks, volumes, and images
+created by `docker-compose up`.
 
 <br><br>
 
